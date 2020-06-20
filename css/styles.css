@@ -1,0 +1,185 @@
+#first_block {
+  background-color: #ff4c68;
+  position: relative;
+  z-index: 1;
+}
+
+body {
+  font-family: Montserrat, sans-serif;
+  text-align: center;
+}
+
+.colored {
+  color:white;
+  background-color: #ef8172;
+}
+
+.white h2 {
+  color: black;
+}
+
+.white {
+  background-color: white;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Montserrat';
+  font-weight: 900;
+}
+
+.title {
+  line-height: 1.5;
+  text-align: left;
+}
+
+.testimonial-text, .pricing_header, .title, .icons2 {
+  font-size: 3rem;
+}
+
+h2 .price {
+  font-size: 2.5rem;
+  }
+
+
+.featres_header, .dog_name {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.cta_header {
+  font-size: 2rem;
+}
+
+
+.apple {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+@media (max-width: 1028px) {
+  .apple {
+    position: static;
+    transform: rotate(0deg);
+  }
+}
+
+#mobicons {
+  margin-right: 6px;
+  font-size: 1.5rem;
+}
+
+.icons2 {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icons2:hover {
+  color: #ff4c68;
+}
+
+#features {
+  padding: 7% 15%;
+  position: relative;
+  z-index: 2;
+}
+
+.feature3 {
+  padding: 5%;
+}
+
+.navbar {
+  font-family: 'Montserrat';
+  padding: 0 0 4.5rem;
+}
+
+.navber-link {
+  font-family: 'Montserrat-light';
+  font-size: 1.2rem;
+}
+
+.nav-item {
+  margin: 0 20px;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-weight: 600;
+  font-size: 3rem;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Testimonials */
+
+.dogpic {
+  border-radius: 100%;
+  width: 10%;
+  margin: 5%
+}
+
+#press {
+  padding-bottom: 3%;
+}
+
+.presspic {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#pricing {
+  padding: 100px;
+}
+
+.pricecard {
+  padding: 3% 5%;
+}
+
+#cta {
+  background-color: #ef8172;
+  padding: 7% 20%;
+}
+
+#footer {
+  padding: 2%;
+}
+
+#footer .fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+#footer .fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+#footer .fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+#footer .fa-reddit {
+  background: #ff5700;
+  color: white;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 70px;
+    border-radius: 50%;
+    text-decoration: none;
+    margin: 5px 2px;
+}
